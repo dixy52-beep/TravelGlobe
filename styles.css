@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+#info-panel {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 300px;
+    background: rgba(0, 20, 40, 0.9);
+    border: 2px solid #00d2ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00d2ff;
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+.hidden {
+    transform: translateX(150%);
+}
+
+h2 {
+    margin-top: 0;
+    color: #00d2ff;
+    text-transform: uppercase;
+}
+
+.meta-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+
+#year-badge {
+    background: #ff0055;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#figure-badge {
+    background: #ffd700;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.warp-btn {
+    width: 100%;
+    padding: 10px;
+    background: #00d2ff;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.warp-btn:hover {
+    background: white;
+}
