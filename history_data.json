@@ -1,0 +1,42 @@
+[
+  {
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "year": -44,
+    "label": "Roma Antica",
+    "title": "L'Idi di Marzo",
+    "desc": "Sei stato teletrasportato nel 44 a.C. Giulio Cesare è appena stato assassinato. La Repubblica è nel caos. La cultura romana è all'apice, ma la guerra civile è imminente.",
+    "figure": "Giulio Cesare",
+    "color": "red"
+  },
+  {
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "year": 1600,
+    "label": "Edo (Tokyo)",
+    "title": "L'Era dei Samurai",
+    "desc": "Benvenuto nel Giappone feudale dopo la battaglia di Sekigahara. Inizia il periodo Edo. I confini sono chiusi, l'arte Ukiyo-e fiorisce e i Samurai governano le strade.",
+    "figure": "Tokugawa Ieyasu",
+    "color": "gold"
+  },
+  {
+    "lat": 29.9792,
+    "lng": 31.1342,
+    "year": -2560,
+    "label": "Giza",
+    "title": "Costruzione della Grande Piramide",
+    "desc": "Sei all'ombra della grande piramide di Cheope appena completata. Il Nilo è la fonte di vita. Gli operai non sono schiavi, ma cittadini pagati che lavorano per il Faraone-Dio.",
+    "figure": "Faraone Cheope",
+    "color": "orange"
+  },
+  {
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "year": 1789,
+    "label": "Parigi",
+    "title": "La Rivoluzione Francese",
+    "desc": "Le strade di Parigi bruciano. La Bastiglia è stata presa. Il popolo chiede 'Liberté, Égalité, Fraternité'. È la fine della monarchia assoluta e l'inizio dell'età moderna.",
+    "figure": "Robespierre",
+    "color": "blue"
+  }
+]
