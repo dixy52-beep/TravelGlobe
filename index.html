@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Chrono-Globe: Viaggi nel Tempo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importiamo la libreria Globe.gl -->
+    <script src="//unpkg.com/globe.gl"></script>
+</head>
+<body>
+    <div id="globeViz"></div>
+
+    <!-- Pannello informativo (nascosto all'inizio) -->
+    <div id="info-panel" class="hidden">
+        <button id="close-btn" onclick="closePanel()">X</button>
+        <h2 id="location-title">Titolo Luogo</h2>
+        <div class="meta-info">
+            <span id="year-badge">ANNO: ???</span>
+            <span id="figure-badge">PERSONAGGIO: ???</span>
+        </div>
+        <p id="description">Descrizione...</p>
+        <button class="warp-btn">Esplora Conflitti</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
